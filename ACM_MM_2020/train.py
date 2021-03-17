@@ -2,7 +2,7 @@ import argparse, os, pickle
 import numpy as np
 from model import *
 from dataset_3d import *
-from utils import AverageMeter, calc_loss
+from utils import AverageMeter, calc_loss, write_log
 
 import torch
 from torch.utils import data
